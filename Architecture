@@ -1,0 +1,21 @@
+              Infrastructure Diagnostics Platform
+
+        ┌───────────────────────────────────────────┐
+        │             Management Layer              │
+        │ Dashboard | API | OTA | Configuration     │
+        └───────────────────────────────────────────┘
+                         │
+        ┌───────────────────────────────────────────┐
+        │           Diagnosis Layer                 │
+        │ Rule Engine | Mission Planner | History   │
+        └───────────────────────────────────────────┘
+                         │
+        ┌───────────────────────────────────────────┐
+        │        Communication Layer                │
+        │ MQTT | Database | Logging                 │
+        └───────────────────────────────────────────┘
+                         │
+      ┌──────────────────────────────────────────────┐
+      │                Edge Devices                  │
+      │ Node A | Node B | Robot | Future Nodes       │
+      └──────────────────────────────────────────────┘
